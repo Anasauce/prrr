@@ -181,7 +181,7 @@ describe('Commands', function(){
     })
   })
 
-  describe('unclaimStalePrrrs', function(){
+  describe.only('unclaimStalePrrrs', function(){
     it('should unclaim all uncompleted Prrrs from more than an hour ago', function() {
       const commands = new Commands
       const insertPrrr = attributes =>
